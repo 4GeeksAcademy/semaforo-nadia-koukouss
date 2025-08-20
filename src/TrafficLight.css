@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+}
+.traffic-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.traffic-top {
+  background-color: black;
+  width: 15px;
+  height: 100px;
+}
+.container-traffic-3 {
+  background-color: black;
+  width: 100px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 15px;
+}
+.red-light {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.yellow-light {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.green-light {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.on {
+  box-shadow: 0 0 30px 10px rgba(255, 254, 254, 0.927);
+}
+.purple-light {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-extra {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.hide {
+  display: none;
+}
+.container-traffic-4 {
+  background-color: black;
+  width: 100px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 15px;
+}
